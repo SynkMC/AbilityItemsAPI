@@ -3,8 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cc.synkdev</groupId>
   <artifactId>AbilityitemsAPI</artifactId>
+  <packaging>pom</packaging>
   <name>AbilityItemsAPI</name>
-  <version>1.0.8</version>
+  <version>1.0</version>
   <description>An API to help developers easily give abilities to items</description>
   <licenses>
     <license>
@@ -52,6 +53,11 @@
       <id>codemc-repo</id>
       <url>https://repo.codemc.io/repository/maven-public/</url>
     </repository>
+    <repository>
+      <id>reposilite-repository-releases</id>
+      <name>Reposilite Repository</name>
+      <url>https://maven.synkdev.cc/releases</url>
+    </repository>
   </repositories>
   <dependencies>
     <dependency>
@@ -79,6 +85,13 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>reposilite-repository-releases</id>
+      <name>Reposilite Repository</name>
+      <url>https://maven.synkdev.cc/releases</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>

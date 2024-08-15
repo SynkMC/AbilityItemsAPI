@@ -6,7 +6,16 @@
 
     <groupId>cc.synkdev</groupId>
     <artifactId>AbilityitemsAPI</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>reposilite-repository-releases</id>
+            <name>Reposilite Repository</name>
+            <url>https://maven.synkdev.cc/releases</url>
+        </repository>
+    </distributionManagement>
 
     <name>AbilityItemsAPI</name>
     <description>An API to help developers easily give abilities to items</description>
@@ -65,6 +74,11 @@
             <id>codemc-repo</id>
             <url>https://repo.codemc.io/repository/maven-public/</url>
             <layout>default</layout>
+        </repository>
+        <repository>
+            <id>reposilite-repository-releases</id>
+            <name>Reposilite Repository</name>
+            <url>https://maven.synkdev.cc/releases</url>
         </repository>
     </repositories>
 
