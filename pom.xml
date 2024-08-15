@@ -6,7 +6,7 @@
 
     <groupId>cc.synkdev</groupId>
     <artifactId>AbilityitemsAPI</artifactId>
-    <version>1.0.8</version>
+    <version>1.0</version>
 
     <name>AbilityItemsAPI</name>
     <description>An API to help developers easily give abilities to items</description>
