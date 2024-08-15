@@ -1,0 +1,8 @@
+name: AbilityItemsAPI
+version: 1.0
+main: cc.synkdev.AbilityItemsAPI
+authors:
+  - "Synk_"
+api-version: '1.19'
+depend:
+  - SynkLibs
