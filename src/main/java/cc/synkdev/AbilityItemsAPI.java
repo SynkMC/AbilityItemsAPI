@@ -3,7 +3,6 @@ package cc.synkdev;
 import cc.synkdev.items.AbilityItem;
 import cc.synkdev.items.Listener;
 import cc.synkdev.synkLibs.Lang;
-import cc.synkdev.synkLibs.SynkLibs;
 import cc.synkdev.synkLibs.Utils;
 import lombok.Getter;
 import lombok.Setter;
@@ -26,7 +25,7 @@ public class AbilityItemsAPI extends JavaPlugin {
         new Metrics(this, 23014);
 
 
-        new Utils().checkUpdate("AbilityItemsAPI", "1.0", "");
+        new Utils().checkUpdate("AbilityItemsAPI", "1.1", "");
 
         Bukkit.getPluginManager().registerEvents(new Listener(), this);
 
