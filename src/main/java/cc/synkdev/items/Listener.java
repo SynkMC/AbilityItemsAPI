@@ -1,8 +1,6 @@
 package cc.synkdev.items;
 
 import cc.synkdev.AbilityItemsAPI;
-import cc.synkdev.synkLibs.Utils;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import de.tr7zw.nbtapi.NBTItem;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.inventory.*;
@@ -10,7 +8,6 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerSwapHandItemsEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.List;
