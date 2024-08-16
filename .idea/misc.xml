@@ -32,6 +32,10 @@
     <option name="priority" value="Medium" />
     <option name="excludeFilter" value="" />
   </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../JavaDocs/AIA" />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
