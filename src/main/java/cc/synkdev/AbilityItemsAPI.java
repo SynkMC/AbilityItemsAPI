@@ -14,6 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class AbilityItemsAPI extends JavaPlugin implements SynkPlugin {
     @Getter private static AbilityItemsAPI instance;
@@ -24,12 +25,7 @@ public class AbilityItemsAPI extends JavaPlugin implements SynkPlugin {
         instance = this;
         new Metrics(this, 23014);
 
-        SynkLibs.setSpl(this);
-        Utils.checkUpdate(this, this);
-
         Bukkit.getPluginManager().registerEvents(new Listener(), this);
-
-        //if (!Bukkit.getPluginManager().isPluginEnabled("SynkLibs")) Bukkit.getPluginManager().enablePlugin(new SynkLibs());
     }
     @Override
     public void onDisable() {
@@ -43,7 +39,7 @@ public class AbilityItemsAPI extends JavaPlugin implements SynkPlugin {
 
     @Override
     public String ver() {
-        return "1.2";
+        return "1.3";
     }
 
     @Override
@@ -54,5 +50,15 @@ public class AbilityItemsAPI extends JavaPlugin implements SynkPlugin {
     @Override
     public String prefix() {
         return ChatColor.translateAlternateColorCodes('&', "&8[&6AbilityItemsAPI&8] » &r");
+    }
+
+    @Override
+    public String lang() {
+        return null;
+    }
+
+    @Override
+    public Map<String, String> langMap() {
+        return null;
     }
 }
